@@ -149,4 +149,14 @@ footer{
 /* linha */
     border: 1px solid #eee;
 }
+/* FUNCIONALIDADE COM JS - efeito ao clicar*/
+section.form{
+    transition: all 300ms;
+}
 
+section.form.hide {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
+}
